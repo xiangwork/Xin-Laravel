@@ -5,7 +5,10 @@ export default defineConfig({
   model: {},
   initialState: {},
   layout: {},
-  locale: {},
+  locale: {
+    default: 'zh-CN',
+    baseNavigator: true,
+  },
   antd: {},
   request: {},
   access: {},
